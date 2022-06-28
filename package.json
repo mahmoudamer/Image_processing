@@ -1,0 +1,33 @@
+{
+  "name": "image_processing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app.ts",
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahmoudamer/Image_processing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahmoudamer/Image_processing/issues"
+  },
+  "homepage": "https://github.com/mahmoudamer/Image_processing#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "sharp": "^0.30.7"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^18.0.0",
+    "@types/sharp": "^0.30.4",
+    "nodemon": "^2.0.18",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  }
+}
